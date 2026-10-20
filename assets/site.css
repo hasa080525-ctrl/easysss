@@ -42,7 +42,8 @@ header{
   display:flex; align-items:center; justify-content:center;
   font-size:16px; font-weight:800;
 }
-.nav-links{display:flex; gap:18px; font-size:13.5px; font-weight:600; color:var(--slate);}
+.nav-links{display:flex; gap:13px; font-size:12.5px; font-weight:600; color:var(--slate);}
+.nav-links a{white-space:nowrap;}
 .nav-links a:hover, .nav-links a.current{color:var(--coral-dark);}
 .nav-cta{
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
